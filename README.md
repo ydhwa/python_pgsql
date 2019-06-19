@@ -11,3 +11,7 @@
 ## 목록
 - test_connect
    - 연결 테스트
+- config
+   - 설정 저장 모듈
+- test_crud
+   - CRUD 연습
