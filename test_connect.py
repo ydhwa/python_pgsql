@@ -5,6 +5,7 @@ try:
 
 except Exception as e:
     print(f'error: {e}')
+
 finally:
-    conn and conn.close()
+    'conn' in locals() and conn and conn.close()
 
