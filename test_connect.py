@@ -1,7 +1,8 @@
 import psycopg2
 
 try:
-    conn = psycopg2.connect(user='webdb', password='webdb', host='192.168.1.48', port='5432', database='webdb')
+    conn = psycopg2.connect(user='webdb', password='webdb', host='127.0.0.1', port='5432', database='webdb')
+    # conn = psycopg2.connect(user='webdb', password='webdb', host='192.168.219.101', port='5432', database='webdb')
 
     cursor = conn.cursor()
     cursor.execute('select version()')

@@ -1,7 +1,8 @@
 db = {
     'user': 'webdb',
     'password': 'webdb',
-    'host': '192.168.1.48',
+    'host': '127.0.0.1',
+    # 'host': '192.168.219.101',
     'port': '5432',
     'database': 'webdb'
 }
